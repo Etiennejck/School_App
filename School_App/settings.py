@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-z$pwc)(95s02%2-*xu!s7zeza4^ga-rhy=--6k+jpyw(6l*0m$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['skolapp.alwaysdata.net']
 
 
 # Application definition
@@ -78,10 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'skolapp_schoolappdb',
-	'USER': 'skolapp',
-	'PASSWORD': 'Minouch@-5641',
-	'PORT': '5432',
-	'HOST':'postgresql-skolapp.alwaysdata.net',
+	    'USER': 'skolapp',
+	    'PASSWORD': 'Minouch@-5641',
+	    'PORT': '5432',
+	    'HOST':'postgresql-skolapp.alwaysdata.net',
     }
 }
 
