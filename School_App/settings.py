@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'School_App.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'skolapp_schoolappdb',
+	'USER': 'skolapp',
+	'PASSWORD': 'Minouch@-5641',
+	'PORT': '5432',
+	'HOST':'postgresql-skolapp.alwaysdata.net',
     }
 }
 
