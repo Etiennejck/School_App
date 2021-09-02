@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-z$pwc)(95s02%2-*xu!s7zeza4^ga-rhy=--6k+jpyw(6l*0m$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['skolapp.alwaysdata.net']
+ALLOWED_HOSTS = ['127.0.0.1', 'skolapp.alwaysdata.net']
 
 
 # Application definition
